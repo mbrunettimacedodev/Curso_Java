@@ -89,6 +89,31 @@ public static void main(String[] args){
     int b = 15;
     b-= 5;
     System.out.println(b);
-    
-    }
+
+    // Type Casting (Implicito - widening)
+
+    int numero = 42;
+
+    long numeroLong = numero;
+
+    System.out.println(numero);
+    System.out.println(numeroLong);
+   
+      // Explicito - narrowing
+
+      double  valorDouble = 9.78;
+
+      int valorInt = (int) valorDouble;
+  
+      System.out.println(valorInt);
+
+      //Casting de char para Int
+      char nomeChar = 'A';
+      int numeroInt2 = (int) nomeChar;
+      System.out.println(numeroInt2);
+
+}
+
+
+  
 }
