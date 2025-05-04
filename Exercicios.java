@@ -1,3 +1,5 @@
+package Curso_Java;
+
 public class Exercicios {
     public static void main(String[] args){
 
