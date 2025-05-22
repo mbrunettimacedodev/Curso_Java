@@ -127,6 +127,8 @@ public static void main(String[] args){
       int idade = scanner.nextInt(); 
       System.out.println("Sua idade é: " + idade + " Anos");
       
+
+      System.out.println("Oi");
 }
 
 
