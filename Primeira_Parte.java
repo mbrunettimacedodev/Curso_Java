@@ -1,4 +1,5 @@
 package Curso_Java;
+import java.util.Scanner;
 
 public class Primeira_Parte {
     // Java
@@ -114,6 +115,18 @@ public static void main(String[] args){
       int numeroInt2 = (int) nomeChar;
       System.out.println(numeroInt2);
 
+      // Classe Scanner
+
+      Scanner scanner = new Scanner(System.in);
+      
+      System.out.println("Digite seu nome: ");
+      String nome = scanner.nextLine();
+      System.out.println("Seu nome é " + nome);
+      
+      System.out.println("Agora, digite sua idade: ");
+      int idade = scanner.nextInt(); 
+      System.out.println("Sua idade é: " + idade);
+      
 }
 
 
