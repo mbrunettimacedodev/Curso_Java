@@ -125,7 +125,7 @@ public static void main(String[] args){
       
       System.out.println("Agora, digite sua idade: ");
       int idade = scanner.nextInt(); 
-      System.out.println("Sua idade é: " + idade);
+      System.out.println("Sua idade é: " + idade + " Anos");
       
 }
 
