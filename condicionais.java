@@ -1,4 +1,4 @@
-public class condicionais {
+public class Condicionais {
     public static void main(String[] args){
         // 4 - Comparação de Strings
 
@@ -84,5 +84,7 @@ public class condicionais {
 
         // 1 - Vou escolher qual a situação que eu quero que mais ocorra
         // 2 - Melhorar a lógica (Coloco o &&) para deixar a comparação mais específica
+
+        
     }
 }

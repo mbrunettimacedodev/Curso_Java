@@ -20,5 +20,5 @@ public class Tabuada {
         System.out.println(numeroTabuada + " X 10 = " + (numeroTabuada*10));
 
         scanner.close();
-    }
+    }   
 }
