@@ -30,5 +30,7 @@ public class MediaAluno {
             System.out.println("Infelizmente, você foi reprovado...");
 
         }
+
+        scan.close();
     }
 }

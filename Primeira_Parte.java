@@ -1,4 +1,4 @@
-package Curso_Java;
+
 import java.util.Scanner;
 
 public class Primeira_Parte {
@@ -125,10 +125,13 @@ public static void main(String[] args){
       
       System.out.println("Agora, digite sua idade: ");
       int idade = scanner.nextInt(); 
-      System.out.println("Sua idade é: " + idade + " Anos");
+      System.out.println(nome + " sua idade é: " + idade + " Anos");
       
+      
+      
+      
+      scanner.close();
 
-      System.out.println("Oi");
 }
 
 
