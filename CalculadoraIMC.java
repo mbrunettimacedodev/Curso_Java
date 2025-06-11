@@ -10,6 +10,8 @@ public class CalculadoraIMC {
         System.out.println("Digite sua altura em metros: ");
         double altura = scanner.nextDouble();
 
+        scanner.close();
+
         double IMC = peso / (altura * altura);
         System.out.println("Seu IMC é: " + IMC);
 
