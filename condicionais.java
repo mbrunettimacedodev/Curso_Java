@@ -83,7 +83,7 @@ public class Condicionais {
         }
 
         // 1 - Vou escolher qual a situação que eu quero que mais ocorra
-        // 2 - Melhorar a lógica (Coloco o &&) para deixar a comparação mais específicaa
+        // 2 - Melhorar a lógica (Coloco o &&) para deixar a comparação mais específica
 
         
     }
