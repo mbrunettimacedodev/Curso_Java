@@ -2,40 +2,48 @@
 import java.util.Scanner;
 
 public class Primeira_Parte {
-    // Java
+    
+    // Comentário simples, atende uma linha.
 
-    /*oiiii */
+    /* Comentário que atende mais de uma linha */
 
     /** 
      * 1
      * 2
      * 3
      * 4
-     * comentário para documentação */
+     * 5
+     * Comentário para documentação */
+    
 public static void main(String[] args){
+    
     // 1- O que são variáveis?
     // tipo -> nome -> atribuir um valor;
 
     String firstName = "Matheus";
-     String secondName = "Macedo";
+    String secondName = "Macedo";
 
      // 2- Atribuição de uma variável + a outra
 
-     String fullName = firstName + " " + secondName;
-     String full = "O nome é: " + fullName;
+    String fullName = firstName + " " + secondName;
+    String full = "O nome é: " + fullName;
 
-     System.out.println(firstName + secondName);
-     System.out.println(fullName);
-     System.out.println(full);
+    System.out.println(firstName + secondName);
+    System.out.println(fullName);
+    System.out.println(full);
+
 // Outro tipo de variável "char"
-     char letra = 'A';
-     System.out.println(letra);
+     
+    char letra = 'A';
+    System.out.println(letra);
 
-     char simbolo = '$';
-     System.out.println(simbolo);
+    char simbolo = '$';
+    System.out.println(simbolo);
+
 // Outro tipo de variável "int"
-     int numeroFixo = 560;
-     System.out.println(numeroFixo);
+     
+    int numeroFixo = 560;
+    System.out.println(numeroFixo);
 
     int n = 50;
     System.out.println(n + 50);
@@ -43,11 +51,14 @@ public static void main(String[] args){
     System.out.println(n / 3);
 
 // Outro tipo de variável "long"
+    
     long numeroGrandao = 500_000_000_000L;
     long numeroGrande = 500000000000L;
 
     System.out.println(numeroGrandao + 1);
+
 // Outro tipo de variável "double"
+    
     double numeroComVirgula = 19.99D;
     double preco = 77.890d;
     double precoBaixo = 12.99;
@@ -77,7 +88,9 @@ public static void main(String[] args){
     x++;
     x++;
     x++;
+
 // loops For e While
+    
     System.out.println(x);
 
     int y = 10;
