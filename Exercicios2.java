@@ -28,7 +28,17 @@ public class Exercicios2 {
         System.out.println(classificarNota(11));
         System.out.println(classificarNota(5));
 
+        // Exercício 5:
 
+        verificarIdade(25);
+        verificarIdade(18);
+        // verificarIdade(10);
+
+        // Exercício 6:
+
+        int[] numeros = {10,15,20,25,30};
+
+        System.out.println(encontrarMaior(numeros));
     }
 
     // Exercício 1 (Função):
@@ -91,4 +101,33 @@ public class Exercicios2 {
         }
         
     }
+
+    // Exercício 5 (Função):
+
+    public static void verificarIdade(int idade){
+        if(idade < 18){
+            System.out.println("Acesso negado");
+            System.exit(0);
+        } else {
+            System.out.println("Acesso permitido");
+        }
+    }
+
+    // Exercício 6 (Função):
+
+    public static int encontrarMaior(int[] numeros){
+
+        int maior = numeros[0];
+
+        // Contador, condição de execução e Incremento
+
+        for(int i = 1; i < numeros.length; i++){
+            if(numeros[i] > maior){
+                maior = numeros[i];
+            }
+        }
+
+        return maior;
+    }
+    
 }
