@@ -13,7 +13,7 @@ public class ConversorTemperatura {
 
         
 
-        if(resposta == 1 ){
+        if(resposta == 1){
             celsiusParaFarenheit();
         } else if(resposta == 2){
             farenheitParaCelsius();
