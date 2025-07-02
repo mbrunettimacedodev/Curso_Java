@@ -55,7 +55,7 @@ public class Loops {
 
         }
 
-        // 3 - Loop infinito (comentei pra nao travar)
+        // 3 - Loop infinito (comentei pra não travar)
 
     // while(true) {
     //     System.out.println("Infinito!");
@@ -64,6 +64,32 @@ public class Loops {
     // for(int j = 0; j <= 5; j--){
     // System.out.println(j);
     //  }
+
+    // 4- Do While
+    
+    int j = 10;
+
+    do{
+        
+        System.out.println("O valor de j é: " + j);
+        j--;
+        
+    } while(j > 0 );
+
+    // Exemplo 2:
+
+    int numero = 0;
+
+    do{
+        numero = (int)(Math.random()*10);
+
+        System.out.println("Número aleatório: " + numero);
+
+    } while(numero != 1);
+
+    // 5 - Break
+
+    // break pode ser utilizado com qualquer estrutura de loop.
 
     }
 }
