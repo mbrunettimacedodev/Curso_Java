@@ -44,7 +44,7 @@ public class ContadorDePalavras {
         System.out.println("O número de palavras digitado foi: " + numeroPalavras);
 
        
-        
+       
 
         
     }
