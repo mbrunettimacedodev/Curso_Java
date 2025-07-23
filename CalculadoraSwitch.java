@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class CalculadoraSwitch {
     public static void main(String[] args) {
-        
+        String continuar = "Sim";
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Escolha um número: ");
@@ -20,7 +21,7 @@ public class CalculadoraSwitch {
         int escolha = scanner.nextInt();
         
 
-        scanner.close();
+        
         
     switch(escolha){
         case 1:
