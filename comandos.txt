@@ -1,0 +1,26 @@
+touch nomedoarquivo.extensão // PARA CRIAR
+code nomedoarquivo.extensão // PARA ABRIR
+rmdir nomedoarquivo.extensão // PARA EXCLUIR
+mkdir nomedapasta // PARA CRIAR A PASTA (DIRETÓRIO)
+cd // PARA ENTRAR NA PASTA
+cd .. // PARA VOLTAR 1 PASTA
+git remote -v // MOSTRA OS REPOSITÓRIOS REMOTOS CONECTADOS AO REPOSITÓRIO LOCAL
+git status // MOSTRA ARQUIVOS MODIFICADOS / NOVOS / O QUE VAI PRO COMMIT
+git init . // CRIA O REPOSITÓRIO LOCAL
+git add . // ADICIONA TODOS OS ARQUIVOS ALTERADOS / CRIADOS
+git add nomedoarquivo.extensão // ADICIONA UM SOMENTE (ESCOLHIDO)
+git commit -m "Primeiro commit" // SALVA UMA VERSÃO DO PROJETO
+git log // VER HISTÓRICOS DE COMMIT
+git remote add origin https://github.com/user/projeto.git // CONECTAR AO github
+git push -u origin main // ENVIAR PARA O GITHUB PELA PRIMEIRA VEZ
+git push // PARA ENVIAR AO GITHUB DAS PRÓXIMAS VEZES
+git pull // BAIXAR ALTERAÇÕES DO GITHUB
+git clone URL // CLONAR REPOSITÓRIO
+git branch // CRIAR branch
+git rm arquivo.txt // REMOVER UM ARQUIVO DO GIT
+git diff // VER DIFERENÇAS NO CÓDIGO
+clear // LIMPAR TERMINAL
+git checkout -b nova-feature // CRIAR E TROCAR BRANCH AO MESMO TEMPO
+git switch nova-feature // TROCAR DE BRANCH (versão moderna)
+git checkout nova-feature // TROCAR DE BRANCH
+git branch nova-feature // CRIAR NOVA BRANCH
