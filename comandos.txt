@@ -1,26 +1,115 @@
-touch nomedoarquivo.extensão // PARA CRIAR
-code nomedoarquivo.extensão // PARA ABRIR
-rmdir nomedoarquivo.extensão // PARA EXCLUIR
-mkdir nomedapasta // PARA CRIAR A PASTA (DIRETÓRIO)
-cd // PARA ENTRAR NA PASTA
-cd .. // PARA VOLTAR 1 PASTA
-git remote -v // MOSTRA OS REPOSITÓRIOS REMOTOS CONECTADOS AO REPOSITÓRIO LOCAL
-git status // MOSTRA ARQUIVOS MODIFICADOS / NOVOS / O QUE VAI PRO COMMIT
-git init . // CRIA O REPOSITÓRIO LOCAL
-git add . // ADICIONA TODOS OS ARQUIVOS ALTERADOS / CRIADOS
-git add nomedoarquivo.extensão // ADICIONA UM SOMENTE (ESCOLHIDO)
-git commit -m "Primeiro commit" // SALVA UMA VERSÃO DO PROJETO
-git log // VER HISTÓRICOS DE COMMIT
-git remote add origin https://github.com/user/projeto.git // CONECTAR AO github
-git push -u origin main // ENVIAR PARA O GITHUB PELA PRIMEIRA VEZ
-git push // PARA ENVIAR AO GITHUB DAS PRÓXIMAS VEZES
-git pull // BAIXAR ALTERAÇÕES DO GITHUB
-git clone URL // CLONAR REPOSITÓRIO
-git branch // CRIAR branch
-git rm arquivo.txt // REMOVER UM ARQUIVO DO GIT
-git diff // VER DIFERENÇAS NO CÓDIGO
-clear // LIMPAR TERMINAL
-git checkout -b nova-feature // CRIAR E TROCAR BRANCH AO MESMO TEMPO
-git switch nova-feature // TROCAR DE BRANCH (versão moderna)
-git checkout nova-feature // TROCAR DE BRANCH
-git branch nova-feature // CRIAR NOVA BRANCH
+📁 ARQUIVOS E PASTAS
+
+touch nomedoarquivo.extensao
+# CRIAR UM ARQUIVO
+
+code nomedoarquivo.extensao
+# ABRIR ARQUIVO NO VS CODE
+
+rm nomedoarquivo.extensao
+# EXCLUIR ARQUIVO
+
+mkdir nomedapasta
+# CRIAR UMA PASTA (DIRETÓRIO)
+
+rmdir nomedapasta
+# REMOVER UMA PASTA VAZIA
+
+cd nomedapasta
+# ENTRAR NA PASTA
+
+cd ..
+# VOLTAR UMA PASTA
+
+clear
+# LIMPAR TERMINAL
+
+🔧 CONFIGURAÇÕES GIT
+git config user.name "Seu Nome"
+# CONFIGURA NOME DO USUÁRIO NO REPOSITÓRIO ATUAL
+
+git config user.email "seuemail@gmail.com"
+# CONFIGURA EMAIL NO REPOSITÓRIO ATUAL
+
+git config --global user.name "Seu Nome"
+# CONFIGURA NOME GLOBALMENTE
+
+git config --global user.email "seuemail@gmail.com"
+# CONFIGURA EMAIL GLOBALMENTE
+
+git config --global --list
+# MOSTRA TODAS AS CONFIGURAÇÕES GLOBAIS
+
+📦 REPOSITÓRIO GIT
+git init
+# CRIA UM REPOSITÓRIO GIT LOCAL
+
+git status
+# MOSTRA ARQUIVOS MODIFICADOS, NOVOS E PRONTOS PARA COMMIT
+
+git add .
+# ADICIONA TODOS OS ARQUIVOS
+
+git add nomedoarquivo.extensao
+# ADICIONA SOMENTE UM ARQUIVO
+
+git commit -m "mensagem do commit"
+# SALVA UMA VERSÃO DO PROJETO
+
+git log
+# MOSTRA HISTÓRICO DE COMMITS
+
+git diff
+# MOSTRA DIFERENÇAS NO CÓDIGO
+
+🌐 GITHUB / REPOSITÓRIO REMOTO
+git remote -v
+# MOSTRA OS REPOSITÓRIOS REMOTOS CONECTADOS
+
+git remote add origin URL
+# CONECTA O REPOSITÓRIO LOCAL AO GITHUB
+
+git push -u origin main
+# ENVIA PARA O GITHUB PELA PRIMEIRA VEZ
+
+git push
+# ENVIA ALTERAÇÕES PARA O GITHUB
+
+git pull
+# BAIXA ALTERAÇÕES DO GITHUB
+
+git clone URL
+# CLONA UM REPOSITÓRIO DO GITHUB
+
+🌿 BRANCHES
+git branch
+# LISTA AS BRANCHES
+
+git branch nome-da-branch
+# CRIA UMA NOVA BRANCH
+
+git switch nome-da-branch
+# TROCA DE BRANCH (FORMA MODERNA)
+
+git checkout nome-da-branch
+# TROCA DE BRANCH
+
+git checkout -b nome-da-branch
+# CRIA E TROCA PARA A BRANCH AO MESMO TEMPO
+
+🗑 REMOÇÃO DE ARQUIVOS NO GIT
+rm arquivo.txt
+# REMOVE O ARQUIVO APENAS DO COMPUTADOR
+
+git rm arquivo.txt
+# REMOVE O ARQUIVO DO COMPUTADOR E DO GIT
+
+💡 DICAS IMPORTANTES
+node arquivo.js
+# EXECUTA ARQUIVO JAVASCRIPT COM NODE.JS
+
+npm install
+# INSTALA DEPENDÊNCIAS DO PROJETO
+
+npm init -y
+# CRIA O package.json AUTOMATICAMENTE
